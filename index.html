@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi portafolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+</head>
+<body>	
+	<div class="social">
+		<ul>
+            <li><a href="https://www.facebook.com/sebgv" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/sebgv524" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/sebgv/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://github.com/sebgv524" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+        </ul>
+	</div>
+
+	<!-- Barra de navegación-->
+	<nav class="navbar navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<!-- icono mostrado en modo móvil-->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+			            	data-target=".navbar-ex1-collapse">
+			      			<span class="sr-only">Desplegar navegación</span>
+			      			<span class="icon-bar"></span>
+			      			<span class="icon-bar"></span>
+			      			<span class="icon-bar"></span>
+		      			</button>
+		      			<a class="navbar-brand" href="#">SEBGV</a>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<!-- Contenido del navbar -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+		    			<ul class="nav navbar-nav" id="colornav">
+		      				<li><a href="#inicio">Inicio</a></li>
+		      				<li><a href="#portafolio">Portafolio</a></li>
+		      				<li><a href="#about">Acerca de mí</a></li>
+		      				<li><a href="#contacto">Contacto</a></li>
+		      			</ul> 
+		      		</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<section id="banner">
+	<!-- Encabezado -->
+	<header id="inicio" class="head">
+		<div class="">
+		  <div class="container">
+		    <h1 class="text-center tam-head">Bienvenidos</h1>
+		    <h2 class="text-center tam-head">Soy Sebastián Giraldo</h2>
+		  </div>
+		</div>
+	</header><!-- /header -->
+</section>
+
+	<hr>
+
+	<!-- Acerca de mi -->	
+	<div class="container" id="about">
+		<h2 class="text-center">Sobre mí</h2>
+		<div class="row">
+			<div class="col-md-12">
+				<img class="img-responsive img-circle .img-thumbnail foto center-block" src="img/yo.jpg" alt="Este soy yo">
+				<h4 class="text-center">Sebastián Giraldo</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<!-- Portafolio -->
+	<div class="container" id="portafolio">
+		<h2 class="text-center">Portafolio</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="well">
+					<img class="img-responsive" src="img/golden-preview.png" alt="">
+				    <p><a class="btn btn-lg center-block" role="button">Click aquí</a></p>
+				</div>
+			</div>		
+			<div class="col-md-4">
+				<div class="well">
+					<img class="img-responsive" src="img/dreams-preview.png" alt="">
+				    <p><a class="btn btn-lg center-block" role="button">Click aquí</a></p>
+				</div>
+			</div>		
+			<div class="col-md-4">
+				<div class="well">
+					 <img class="img-responsive img-porta" src="img/roundicons-free.png" alt="">
+				    <p><a class="btn btn-lg center-block" role="button">Click aquí</a></p>
+				</div>
+			</div>		
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="well">
+					 <img class="img-responsive" src="img/escape-preview.png" alt="">
+				    <p><a class="btn btn-lg center-block" role="button">Click aquí</a></p>
+				</div>
+			</div>		
+			<div class="col-md-4">
+				<div class="well">
+					<img class="img-responsive img-porta" src="img/startup-framework-preview.png" alt="">
+				    <p><a class="btn btn-lg center-block" role="button">Click aquí</a></p>
+				</div>
+			</div>		
+			<div class="col-md-4">
+				<div class="well">
+					<img class="img-responsive" src="img/treehouse-preview.png" alt="">
+				    <p><a class="btn btn-lg center-block" role="button">Click aquí</a></p>
+				</div>
+			</div>		
+		</div>
+	</div>	
+
+	<hr>
+
+	<!-- Contacto -->
+	<div class="container" id="contacto">
+		<h2 class="text-center">Contacto</h2>
+		<div class="row">	
+			<form role="form">
+				<div class="col-md-4">
+					<div class="form-group">
+					    <label for="nombre">Nombre completo</label>
+					    <input type="text" class="form-control" id="nombre"
+					           placeholder="Introduce tu nombre completo*" required>
+					</div>
+					<div class="form-group">
+					    <label for="email">Email</label>
+					    <input type="email" class="form-control" id="email"
+					           placeholder="Introduce tu email*" required>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" placeholder="Tu Mensaje *" id="message" required></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+				</div>
+				<div class="clearfix"></div>
+                    <div class="col-md-12 text-center">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-default">Enviar Mensaje</button>
+                    </div>
+			</form>
+			
+		</div>
+	</div>
+	<br>	
+
+	<!-- Pie de pagina -->
+	<footer class="row">
+		 <div class="container">
+	        <div class="row">
+	            <div class="col-md-4">
+	                <span class="copyright">Copyright &copy;NotiJic INC 2017</span>
+	            </div>
+	            <div class="col-md-4">
+	                <ul class="list-inline social-buttons">
+	                    <li><a href="https://www.facebook.com/sebgv" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+	                    <li><a href="https://twitter.com/sebgv524" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+	                    <li><a href="https://www.instagram.com/sebgv/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+	                    <li><a href="https://github.com/sebgv524" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-4">
+	                <ul class="list-inline quicklinks">
+	                    <li><a href="#">Politicas de privacidad</a>
+	                    </li>
+	                    <li><a href="#">Terminos de uso</a>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
